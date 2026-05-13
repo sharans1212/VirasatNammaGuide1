@@ -17,7 +17,7 @@ object HeritageRepository {
             legendKn = "ಪ್ರತಿ ನರ್ತಕಿ ಶಿಲ್ಪವೂ ಬೇರೆ ಲಯವನ್ನು ಹೊಂದಿದೆ ಎಂದು ಸ್ಥಳೀಯ ಗೈಡ್‌ಗಳು ಹೇಳುತ್ತಾರೆ.",
             hiddenFactEn = "Look near the lower friezes for tiny processions that work like a stone comic strip.",
             hiddenFactKn = "ಕೆಳಗಿನ ಪಟ್ಟಿಕೆಗಳ ಬಳಿ ಸಣ್ಣ ಮೆರವಣಿಗೆ ಶಿಲ್ಪಗಳನ್ನು ಗಮನಿಸಿ; ಅವು ಕಲ್ಲಿನ ಕಾಮಿಕ್ ಪಟ್ಟಿಯಂತೆ ಕಾಣುತ್ತವೆ.",
-            imageResId = R.drawable.heritage_belur
+            imageResId = R.drawable.heritage_belur_chennakeshava_temple
         ),
         HeritageSite(
             id = "SITE-HAMPI-002",
@@ -34,7 +34,7 @@ object HeritageRepository {
             legendKn = "ಸ್ಥಳೀಯರು ನೀರಿನಿಂದ ತುಂಬುವ ಭಾಗವನ್ನು ಪೂಜೆಗೆ ಮುಂಚಿನ ಪವಿತ್ರ ಶುದ್ಧೀಕರಣದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸುತ್ತಾರೆ.",
             hiddenFactEn = "The temple is easy to miss because it sits below the surrounding ground line.",
             hiddenFactKn = "ಸುತ್ತಲಿನ ನೆಲಮಟ್ಟಕ್ಕಿಂತ ಕೆಳಗಿರುವುದರಿಂದ ಈ ದೇವಾಲಯವನ್ನು ಸುಲಭವಾಗಿ ತಪ್ಪಿಸಿಕೊಳ್ಳಬಹುದು.",
-            imageResId = R.drawable.heritage_hampi
+            imageResId = R.drawable.heritage_underground_shiva_temple
         ),
         HeritageSite(
             id = "SITE-AIH-003",
@@ -51,7 +51,7 @@ object HeritageRepository {
             legendKn = "ಈ ಹೆಸರು ನಂತರದ ಸ್ಥಳೀಯ ಸಂಬಂಧದಿಂದ ಬಂದಿದೆ; ಸ್ಮಾರಕಗಳು ಶತಮಾನಗಳಿಂದ ಕಥೆಗಳನ್ನು ಸಂಗ್ರಹಿಸುತ್ತವೆ ಎಂಬುದನ್ನು ಇದು ನೆನಪಿಸುತ್ತದೆ.",
             hiddenFactEn = "The roof slabs show how builders solved span and weight before later towered temples became common.",
             hiddenFactKn = "ಗೋಪುರ ದೇವಾಲಯಗಳು ಸಾಮಾನ್ಯವಾಗುವ ಮೊದಲು ಕಲ್ಲಿನ ತೂಕ ಮತ್ತು ಅಂತರವನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಿದರು ಎಂಬುದನ್ನು ಮೇಲ್ಛಾವಣಿ ತೋರಿಸುತ್ತದೆ.",
-            imageResId = R.drawable.heritage_aihole
+            imageResId = R.drawable.heritage_aihole_lad_khan_temple
         ),
         HeritageSite(
             id = "SITE-BADAMI-004",
@@ -68,7 +68,7 @@ object HeritageRepository {
             legendKn = "ಚಾಲುಕ್ಯರ ಶಕ್ತಿಯ ಸಂಕೇತವಾದ ಕೆಂಪು ಮರಳುಗಲ್ಲಿನ ಬೆಟ್ಟಗಳಲ್ಲಿ ಈ ಗುಹೆಗಳನ್ನು ಕೆತ್ತಲಾಗಿದೆ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
             hiddenFactEn = "The acoustics in Cave 3 are surprisingly clear despite the solid rock surroundings.",
             hiddenFactKn = "ಗಟ್ಟಿ ಬಂಡೆಗಳ ನಡುವೆಯೂ 3ನೇ ಗುಹೆಯಲ್ಲಿ ಧ್ವನಿಯ ಪ್ರತಿಫಲನ ಅತ್ಯಂತ ಸ್ಪಷ್ಟವಾಗಿದೆ.",
-            imageResId = R.drawable.heritage_badami
+            imageResId = R.drawable.heritage_badami_cave_temples
         ),
         HeritageSite(
             id = "SITE-PAT-005",
@@ -85,7 +85,7 @@ object HeritageRepository {
             legendKn = "ಇದು ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದ ಪಕ್ಕದಲ್ಲೇ ಇದ್ದು, ಅದರಷ್ಟೇ ಭವ್ಯತೆಯನ್ನು ಹೊಂದಿರುವ ಅವಳಿ ರಚನೆಯಂತೆ ಕಾಣುತ್ತದೆ.",
             hiddenFactEn = "The temple layout follows the same plan as the Virupaksha temple but on a slightly smaller scale.",
             hiddenFactKn = "ಈ ದೇವಾಲಯದ ವಿನ್ಯಾಸವು ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದಂತೆಯೇ ಇದೆ, ಆದರೆ ಸ್ವಲ್ಪ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿದೆ.",
-            imageResId = R.drawable.heritage_pattadakal
+            imageResId = R.drawable.heritage_pattadakal_mallikarjuna_temple
         )
     )
 
