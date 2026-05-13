@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VirasatNammaGuide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/terracotta</item>
+        <item name="colorPrimaryVariant">@color/deep_indigo</item>
+        <item name="colorSecondary">@color/leaf</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/sandal</item>
+        <item name="android:navigationBarColor">@color/stone</item>
+    </style>
+</resources>

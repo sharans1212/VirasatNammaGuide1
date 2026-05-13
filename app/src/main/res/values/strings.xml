@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Virasat-Namma Guide</string>
+    <string name="tagline">Smart heritage guide for Karnataka hidden gems</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="passport">Travel Passport</string>
+    <string name="nearby_sites">Nearby Heritage Sites</string>
+    <string name="radius_note">Simulated results within 25 km</string>
+    <string name="open_site">Open site</string>
+    <string name="hidden_fact">Hidden Fact</string>
+    <string name="architecture">Architecture</string>
+    <string name="legend">Local Legend</string>
+    <string name="audio_guide">Audio Guide</string>
+    <string name="play_audio">Play</string>
+    <string name="pause_audio">Pause</string>
+    <string name="check_in">Check In</string>
+    <string name="checked_in">Checked In</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="kannada">Kannada</string>
+    <string name="qr_title">QR Scanner</string>
+    <string name="qr_help">Scan a site QR. Demo IDs: SITE-BELUR-001, SITE-HAMPI-002, SITE-AIH-003</string>
+    <string name="mock_scan">Mock Scan: SITE-BELUR-001</string>
+    <string name="camera_permission">Camera permission is needed for QR scanning.</string>
+    <string name="unknown_site">Unknown site ID</string>
+    <string name="passport_empty">No check-ins yet.</string>
+    <string name="passport_title">Your Travel Passport</string>
+    <string name="close">Close</string>
+</resources>

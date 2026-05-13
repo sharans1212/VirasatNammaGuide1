@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sandal">#F5E7C8</color>
+    <color name="stone">#EFE9DD</color>
+    <color name="terracotta">#A64724</color>
+    <color name="deep_indigo">#25314D</color>
+    <color name="leaf">#3F6B4F</color>
+    <color name="ink">#252019</color>
+    <color name="white">#FFFFFF</color>
+</resources>

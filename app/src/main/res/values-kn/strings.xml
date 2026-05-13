@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ವಿರಾಸತ್-ನಮ್ಮ ಗೈಡ್</string>
+    <string name="tagline">ಕರ್ನಾಟಕದ ಮರೆಯಾದ ಪರಂಪರೆ ಸ್ಥಳಗಳ ಸ್ಮಾರ್ಟ್ ಗೈಡ್</string>
+    <string name="scan_qr">QR ಸ್ಕ್ಯಾನ್</string>
+    <string name="passport">ಪ್ರಯಾಣ ಪಾಸ್‌ಪೋರ್ಟ್</string>
+    <string name="nearby_sites">ಹತ್ತಿರದ ಪರಂಪರೆ ಸ್ಥಳಗಳು</string>
+    <string name="radius_note">25 ಕಿಮೀ ಒಳಗಿನ ಅನುಕರಿಸಿದ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="open_site">ಸ್ಥಳ ತೆರೆಯಿರಿ</string>
+    <string name="hidden_fact">ಮರೆಯಾದ ಸಂಗತಿ</string>
+    <string name="architecture">ವಾಸ್ತುಶಿಲ್ಪ</string>
+    <string name="legend">ಸ್ಥಳೀಯ ದಂತಕಥೆ</string>
+    <string name="audio_guide">ಆಡಿಯೋ ಗೈಡ್</string>
+    <string name="play_audio">ಪ್ಲೇ</string>
+    <string name="pause_audio">ವಿರಾಮ</string>
+    <string name="check_in">ಚೆಕ್ ಇನ್</string>
+    <string name="checked_in">ಚೆಕ್ ಇನ್ ಆಗಿದೆ</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="qr_title">QR ಸ್ಕ್ಯಾನರ್</string>
+    <string name="qr_help">ಸ್ಥಳದ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ. ಡೆಮೊ IDಗಳು: SITE-BELUR-001, SITE-HAMPI-002, SITE-AIH-003</string>
+    <string name="mock_scan">Mock Scan: SITE-BELUR-001</string>
+    <string name="camera_permission">QR ಸ್ಕ್ಯಾನಿಂಗ್‌ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಬೇಕು.</string>
+    <string name="unknown_site">ಅಪರಿಚಿತ ಸ್ಥಳ ID</string>
+    <string name="passport_empty">ಇನ್ನೂ ಚೆಕ್-ಇನ್ ಇಲ್ಲ.</string>
+    <string name="passport_title">ನಿಮ್ಮ ಪ್ರಯಾಣ ಪಾಸ್‌ಪೋರ್ಟ್</string>
+    <string name="close">ಮುಚ್ಚಿ</string>
+</resources>
