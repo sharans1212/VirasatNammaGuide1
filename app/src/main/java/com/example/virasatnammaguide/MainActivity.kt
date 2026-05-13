@@ -51,7 +51,11 @@ class MainActivity : AppCompatActivity() {
             card.findViewById<TextView>(R.id.siteSummary).text = site.summaryEn
             
             val imageView = card.findViewById<ImageView>(R.id.siteImage)
-            Glide.with(this).load(site.imageUrl).into(imageView)
+            Glide.with(this)
+                .load(site.imageUrl)
+                .placeholder(R.drawable.ic_temple)
+                .error(R.drawable.ic_temple)
+                .into(imageView)
 
             card.findViewById<Button>(R.id.openSiteButton).setOnClickListener {
                 openSite(site.id)

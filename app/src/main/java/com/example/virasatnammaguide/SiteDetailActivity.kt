@@ -47,7 +47,11 @@ class SiteDetailActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.siteId).text = site.id
         
         val imageView = findViewById<ImageView>(R.id.siteImage)
-        Glide.with(this).load(site.imageUrl).into(imageView)
+        Glide.with(this)
+            .load(site.imageUrl)
+            .placeholder(R.drawable.ic_temple)
+            .error(R.drawable.ic_temple)
+            .into(imageView)
 
         findViewById<RadioGroup>(R.id.languageGroup).setOnCheckedChangeListener { _, checkedId ->
             bindSiteText(checkedId == R.id.kannadaOption)
