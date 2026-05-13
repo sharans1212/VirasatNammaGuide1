@@ -17,7 +17,7 @@ object HeritageRepository {
             legendKn = "ಪ್ರತಿ ನರ್ತಕಿ ಶಿಲ್ಪವೂ ಬೇರೆ ಲಯವನ್ನು ಹೊಂದಿದೆ ಎಂದು ಸ್ಥಳೀಯ ಗೈಡ್‌ಗಳು ಹೇಳುತ್ತಾರೆ.",
             hiddenFactEn = "Look near the lower friezes for tiny processions that work like a stone comic strip.",
             hiddenFactKn = "ಕೆಳಗಿನ ಪಟ್ಟಿಕೆಗಳ ಬಳಿ ಸಣ್ಣ ಮೆರವಣಿಗೆ ಶಿಲ್ಪಗಳನ್ನು ಗಮನಿಸಿ; ಅವು ಕಲ್ಲಿನ ಕಾಮಿಕ್ ಪಟ್ಟಿಯಂತೆ ಕಾಣುತ್ತವೆ.",
-            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Belur_Chennakeshava_Temple_Entrance.jpg/800px-Belur_Chennakeshava_Temple_Entrance.jpg"
+            imageResId = R.drawable.heritage_belur
         ),
         HeritageSite(
             id = "SITE-HAMPI-002",
@@ -34,7 +34,7 @@ object HeritageRepository {
             legendKn = "ಸ್ಥಳೀಯರು ನೀರಿನಿಂದ ತುಂಬುವ ಭಾಗವನ್ನು ಪೂಜೆಗೆ ಮುಂಚಿನ ಪವಿತ್ರ ಶುದ್ಧೀಕರಣದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸುತ್ತಾರೆ.",
             hiddenFactEn = "The temple is easy to miss because it sits below the surrounding ground line.",
             hiddenFactKn = "ಸುತ್ತಲಿನ ನೆಲಮಟ್ಟಕ್ಕಿಂತ ಕೆಳಗಿರುವುದರಿಂದ ಈ ದೇವಾಲಯವನ್ನು ಸುಲಭವಾಗಿ ತಪ್ಪಿಸಿಕೊಳ್ಳಬಹುದು.",
-            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hampi_Virupaksha_Temple_2014.jpg/800px-Hampi_Virupaksha_Temple_2014.jpg"
+            imageResId = R.drawable.heritage_hampi
         ),
         HeritageSite(
             id = "SITE-AIH-003",
@@ -51,7 +51,7 @@ object HeritageRepository {
             legendKn = "ಈ ಹೆಸರು ನಂತರದ ಸ್ಥಳೀಯ ಸಂಬಂಧದಿಂದ ಬಂದಿದೆ; ಸ್ಮಾರಕಗಳು ಶತಮಾನಗಳಿಂದ ಕಥೆಗಳನ್ನು ಸಂಗ್ರಹಿಸುತ್ತವೆ ಎಂಬುದನ್ನು ಇದು ನೆನಪಿಸುತ್ತದೆ.",
             hiddenFactEn = "The roof slabs show how builders solved span and weight before later towered temples became common.",
             hiddenFactKn = "ಗೋಪುರ ದೇವಾಲಯಗಳು ಸಾಮಾನ್ಯವಾಗುವ ಮೊದಲು ಕಲ್ಲಿನ ತೂಕ ಮತ್ತು ಅಂತರವನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಿದರು ಎಂಬುದನ್ನು ಮೇಲ್ಛಾವಣಿ ತೋರಿಸುತ್ತದೆ.",
-            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Aihole_Durga_Temple.jpg/800px-Aihole_Durga_Temple.jpg"
+            imageResId = R.drawable.heritage_aihole
         ),
         HeritageSite(
             id = "SITE-BADAMI-004",
@@ -68,7 +68,7 @@ object HeritageRepository {
             legendKn = "ಚಾಲುಕ್ಯರ ಶಕ್ತಿಯ ಸಂಕೇತವಾದ ಕೆಂಪು ಮರಳುಗಲ್ಲಿನ ಬೆಟ್ಟಗಳಲ್ಲಿ ಈ ಗುಹೆಗಳನ್ನು ಕೆತ್ತಲಾಗಿದೆ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
             hiddenFactEn = "The acoustics in Cave 3 are surprisingly clear despite the solid rock surroundings.",
             hiddenFactKn = "ಗಟ್ಟಿ ಬಂಡೆಗಳ ನಡುವೆಯೂ 3ನೇ ಗುಹೆಯಲ್ಲಿ ಧ್ವನಿಯ ಪ್ರತಿಫಲನ ಅತ್ಯಂತ ಸ್ಪಷ್ಟವಾಗಿದೆ.",
-            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Badami_Cave_Temples_Entrance.jpg/800px-Badami_Cave_Temples_Entrance.jpg"
+            imageResId = R.drawable.heritage_badami
         ),
         HeritageSite(
             id = "SITE-PAT-005",
@@ -85,7 +85,7 @@ object HeritageRepository {
             legendKn = "ಇದು ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದ ಪಕ್ಕದಲ್ಲೇ ಇದ್ದು, ಅದರಷ್ಟೇ ಭವ್ಯತೆಯನ್ನು ಹೊಂದಿರುವ ಅವಳಿ ರಚನೆಯಂತೆ ಕಾಣುತ್ತದೆ.",
             hiddenFactEn = "The temple layout follows the same plan as the Virupaksha temple but on a slightly smaller scale.",
             hiddenFactKn = "ಈ ದೇವಾಲಯದ ವಿನ್ಯಾಸವು ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದಂತೆಯೇ ಇದೆ, ಆದರೆ ಸ್ವಲ್ಪ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿದೆ.",
-            imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pattadakal_Mallikarjuna_Temple.jpg/800px-Pattadakal_Mallikarjuna_Temple.jpg"
+            imageResId = R.drawable.heritage_pattadakal
         )
     )
 
