@@ -14,7 +14,8 @@ data class HeritageSite(
     val legendEn: String,
     val legendKn: String,
     val hiddenFactEn: String,
-    val hiddenFactKn: String
+    val hiddenFactKn: String,
+    val imageUrl: String
 ) {
     fun name(kannada: Boolean) = if (kannada) nameKn else nameEn
     fun summary(kannada: Boolean) = if (kannada) summaryKn else summaryEn

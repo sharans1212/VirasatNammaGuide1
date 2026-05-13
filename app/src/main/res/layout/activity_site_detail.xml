@@ -19,6 +19,15 @@
             android:textSize="28sp"
             android:textStyle="bold" />
 
+        <ImageView
+            android:id="@+id/siteImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:background="@color/stone"
+            android:contentDescription="@null" />
+
         <TextView
             android:id="@+id/siteId"
             android:layout_width="wrap_content"

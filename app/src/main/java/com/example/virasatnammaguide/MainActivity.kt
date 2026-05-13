@@ -4,11 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.bumptech.glide.Glide
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -31,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.passportButton).setOnClickListener {
             showPassport()
         }
+        findViewById<Button>(R.id.aboutButton).setOnClickListener {
+            startActivity(Intent(this, AboutActivity::class.java))
+        }
 
         renderSites()
     }
@@ -44,6 +49,10 @@ class MainActivity : AppCompatActivity() {
             card.findViewById<TextView>(R.id.siteName).text = site.nameEn
             card.findViewById<TextView>(R.id.siteDistance).text = String.format(Locale.US, "%.1f km away", site.distanceKm)
             card.findViewById<TextView>(R.id.siteSummary).text = site.summaryEn
+            
+            val imageView = card.findViewById<ImageView>(R.id.siteImage)
+            Glide.with(this).load(site.imageUrl).into(imageView)
+
             card.findViewById<Button>(R.id.openSiteButton).setOnClickListener {
                 openSite(site.id)
             }

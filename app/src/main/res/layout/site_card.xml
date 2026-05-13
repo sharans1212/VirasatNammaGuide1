@@ -7,6 +7,15 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <ImageView
+        android:id="@+id/siteImage"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        android:background="@color/stone"
+        android:contentDescription="@null" />
+
     <TextView
         android:id="@+id/siteName"
         android:layout_width="match_parent"

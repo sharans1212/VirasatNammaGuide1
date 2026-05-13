@@ -4,11 +4,13 @@ import android.media.AudioManager
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.bumptech.glide.Glide
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -43,6 +45,9 @@ class SiteDetailActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.siteName).text = site.nameEn
         findViewById<TextView>(R.id.siteId).text = site.id
+        
+        val imageView = findViewById<ImageView>(R.id.siteImage)
+        Glide.with(this).load(site.imageUrl).into(imageView)
 
         findViewById<RadioGroup>(R.id.languageGroup).setOnCheckedChangeListener { _, checkedId ->
             bindSiteText(checkedId == R.id.kannadaOption)
