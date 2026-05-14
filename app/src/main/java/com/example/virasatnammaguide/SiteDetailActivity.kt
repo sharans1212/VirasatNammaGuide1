@@ -44,6 +44,7 @@ class SiteDetailActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.siteName).text = site.nameEn
         findViewById<TextView>(R.id.siteId).text = site.id
+        bindLocationDetails()
         
         val imageView = findViewById<ImageView>(R.id.siteImage)
         imageView.setImageResource(site.imageResId)
@@ -57,6 +58,14 @@ class SiteDetailActivity : AppCompatActivity() {
 
         bindSiteText(kannada = false)
         refreshCheckInState()
+    }
+
+    private fun bindLocationDetails() {
+        findViewById<TextView>(R.id.locationTown).text = site.town
+        findViewById<TextView>(R.id.locationDistrict).text = site.district
+        findViewById<TextView>(R.id.locationState).text = site.state
+        findViewById<TextView>(R.id.locationPincode).text = site.pincode
+        findViewById<TextView>(R.id.locationMapAddress).text = site.mapAddress()
     }
 
     private fun bindSiteText(kannada: Boolean) {
