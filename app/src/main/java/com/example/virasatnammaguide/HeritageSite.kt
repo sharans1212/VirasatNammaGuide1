@@ -15,7 +15,11 @@ data class HeritageSite(
     val legendKn: String,
     val hiddenFactEn: String,
     val hiddenFactKn: String,
-    val imageResId: Int
+    val imageResId: Int,
+    val town: String,
+    val district: String,
+    val state: String = "Karnataka",
+    val pincode: String
 ) {
     fun name(kannada: Boolean) = if (kannada) nameKn else nameEn
     fun summary(kannada: Boolean) = if (kannada) summaryKn else summaryEn
@@ -23,4 +27,5 @@ data class HeritageSite(
     fun architecture(kannada: Boolean) = if (kannada) architectureKn else architectureEn
     fun legend(kannada: Boolean) = if (kannada) legendKn else legendEn
     fun hiddenFact(kannada: Boolean) = if (kannada) hiddenFactKn else hiddenFactEn
+    fun mapAddress(): String = "$nameEn, $town, $district, $state $pincode"
 }

@@ -10,6 +10,12 @@
     <string name="hidden_fact">Hidden Fact</string>
     <string name="architecture">Architecture</string>
     <string name="legend">Local Legend</string>
+    <string name="location">Location</string>
+    <string name="town">Town / Village</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="maps_address">Maps Address</string>
     <string name="audio_guide">Audio Guide</string>
     <string name="play_audio">Play</string>
     <string name="pause_audio">Pause</string>
