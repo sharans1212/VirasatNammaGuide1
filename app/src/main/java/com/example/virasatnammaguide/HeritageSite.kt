@@ -21,7 +21,8 @@ data class HeritageSite(
     val state: String = "Karnataka",
     val pincode: String,
     val siteTimings: String,
-    val transportation: String
+    val transportation: String,
+    val culturalDetails: String
 ) {
     fun name(kannada: Boolean) = if (kannada) nameKn else nameEn
     fun summary(kannada: Boolean) = if (kannada) summaryKn else summaryEn

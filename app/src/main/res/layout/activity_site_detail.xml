@@ -203,6 +203,26 @@
             android:textColor="@color/deep_indigo"
             android:textSize="15sp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/cultural_details"
+            android:textColor="@color/ink"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/culturalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:lineSpacingExtra="4dp"
+            android:padding="16dp"
+            android:textColor="@color/deep_indigo"
+            android:textSize="15sp" />
+
         <RadioGroup
             android:id="@+id/languageGroup"
             android:layout_width="match_parent"

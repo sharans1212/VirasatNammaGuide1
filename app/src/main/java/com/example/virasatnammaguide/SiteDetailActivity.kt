@@ -68,6 +68,7 @@ class SiteDetailActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.locationMapAddress).text = site.mapAddress()
         findViewById<TextView>(R.id.siteTimings).text = site.siteTimings
         findViewById<TextView>(R.id.transportation).text = site.transportation
+        findViewById<TextView>(R.id.culturalDetails).text = site.culturalDetails
     }
 
     private fun bindSiteText(kannada: Boolean) {

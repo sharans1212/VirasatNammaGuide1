@@ -22,7 +22,8 @@ object HeritageRepository {
             district = "Hassan",
             pincode = "573115",
             siteTimings = "Open daily, 7:30 AM to 7:30 PM.",
-            transportation = "Road: Belur Bus Stand is about 0.5 km from the temple. Rail: Hassan Junction is the nearest major railway station, about 35-38 km away. Air: Mangaluru International Airport is about 160 km away. Local autos and taxis are available from Belur and Hassan."
+            transportation = "Road: Belur Bus Stand is about 0.5 km from the temple. Rail: Hassan Junction is the nearest major railway station, about 35-38 km away. Air: Mangaluru International Airport is about 160 km away. Local autos and taxis are available from Belur and Hassan.",
+            culturalDetails = "Belur reflects the Hoysala tradition of temple patronage, sculpture, music, and dance. The Chennakeshava shrine is an active Vaishnava temple where ritual worship, local festivals, flower offerings, and classical sculptural themes keep the connection between devotion and art alive. The madanika figures, epic panels, and friezes show courtly life, folk memory, and the skill of Karnataka's stone artisans."
         ),
         HeritageSite(
             id = "SITE-HAMPI-002",
@@ -44,7 +45,8 @@ object HeritageRepository {
             district = "Vijayanagara",
             pincode = "583239",
             siteTimings = "Open daily, 6:00 AM to 6:00 PM.",
-            transportation = "Road: Located near Hampi Bus Stand and Noblemen's Quarters. Rail: Hosapete Junction is about 13 km away. Air: Jindal Vijaynagar Airport is about 33 km away. Local autos, taxis, bicycles, and tourist vehicles are commonly used within Hampi."
+            transportation = "Road: Located near Hampi Bus Stand and Noblemen's Quarters. Rail: Hosapete Junction is about 13 km away. Air: Jindal Vijaynagar Airport is about 33 km away. Local autos, taxis, bicycles, and tourist vehicles are commonly used within Hampi.",
+            culturalDetails = "Hampi represents the Vijayanagara cultural landscape, where temple worship, royal processions, markets, music, and river-based pilgrimage shaped daily life. The Underground Shiva Temple shows a quieter sacred space within this larger heritage zone. Its sunken plan and water-filled areas connect the site with ideas of purification, sacred geography, and the ritual importance of Shiva worship."
         ),
         HeritageSite(
             id = "SITE-AIH-003",
@@ -66,7 +68,8 @@ object HeritageRepository {
             district = "Bagalkot",
             pincode = "587124",
             siteTimings = "Open daily, 9:00 AM to 5:00 PM.",
-            transportation = "Road: Aihole is connected by road from Badami, Bagalkot, and Pattadakal. Rail: Badami and Bagalkot are the nearest practical railway stations, around 30-34 km away. Local buses, taxis, and hired autos are available from nearby towns."
+            transportation = "Road: Aihole is connected by road from Badami, Bagalkot, and Pattadakal. Rail: Badami and Bagalkot are the nearest practical railway stations, around 30-34 km away. Local buses, taxis, and hired autos are available from nearby towns.",
+            culturalDetails = "Aihole is known as an early laboratory of Chalukyan temple architecture. Lad Khan Temple preserves the cultural transition from community-hall style spaces to formal temple layouts. The site helps visitors understand how religious practice, local building techniques, and Deccan artistic traditions slowly evolved into later Hindu temple forms."
         ),
         HeritageSite(
             id = "SITE-BADAMI-004",
@@ -88,7 +91,8 @@ object HeritageRepository {
             district = "Bagalkot",
             pincode = "587201",
             siteTimings = "Open daily, 9:00 AM to 5:30 PM.",
-            transportation = "Road: The caves are close to Badami town and bus stand. Rail: Badami Railway Station is about 5 km away. Air: Hubballi Airport is about 100 km away. Local autos and cycle-rickshaws are available from the station and town."
+            transportation = "Road: The caves are close to Badami town and bus stand. Rail: Badami Railway Station is about 5 km away. Air: Hubballi Airport is about 100 km away. Local autos and cycle-rickshaws are available from the station and town.",
+            culturalDetails = "Badami was an important Early Chalukya capital, and the cave temples show a shared cultural world of Shaiva, Vaishnava, and Jain traditions. The carvings of Nataraja, Vishnu, and Jain Tirthankaras show religious diversity and artistic confidence. The red sandstone setting, Agastya lake, and cave shrines together form a sacred and political landscape."
         ),
         HeritageSite(
             id = "SITE-PAT-005",
@@ -110,7 +114,8 @@ object HeritageRepository {
             district = "Bagalkot",
             pincode = "587201",
             siteTimings = "Open daily, 6:00 AM to 5:30 PM.",
-            transportation = "Road: Pattadakal is connected by road from Badami, Bagalkot, and Hubballi. Rail: Badami Railway Station is about 22 km away and Bagalkot Railway Station is about 40 km away. Air: Hubballi Airport is about 130 km away. Buses and taxis are available from Badami and Bagalkot."
+            transportation = "Road: Pattadakal is connected by road from Badami, Bagalkot, and Hubballi. Rail: Badami Railway Station is about 22 km away and Bagalkot Railway Station is about 40 km away. Air: Hubballi Airport is about 130 km away. Buses and taxis are available from Badami and Bagalkot.",
+            culturalDetails = "Pattadakal was a major ceremonial and coronation center of the Chalukyas. Its temples combine northern Nagara and southern Dravidian styles, showing cultural exchange across regions. The Mallikarjuna Temple preserves stories from the Ramayana and Mahabharata, royal patronage by queens, and the importance of temple building as both devotion and political memory."
         )
     )
 
