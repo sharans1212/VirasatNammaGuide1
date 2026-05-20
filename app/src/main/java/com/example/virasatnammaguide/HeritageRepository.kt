@@ -20,7 +20,9 @@ object HeritageRepository {
             imageResId = R.drawable.heritage_belur,
             town = "Belur",
             district = "Hassan",
-            pincode = "573115"
+            pincode = "573115",
+            siteTimings = "Open daily, 7:30 AM to 7:30 PM.",
+            transportation = "Road: Belur Bus Stand is about 0.5 km from the temple. Rail: Hassan Junction is the nearest major railway station, about 35-38 km away. Air: Mangaluru International Airport is about 160 km away. Local autos and taxis are available from Belur and Hassan."
         ),
         HeritageSite(
             id = "SITE-HAMPI-002",
@@ -40,7 +42,9 @@ object HeritageRepository {
             imageResId = R.drawable.heritage_hampi,
             town = "Hampi",
             district = "Vijayanagara",
-            pincode = "583239"
+            pincode = "583239",
+            siteTimings = "Open daily, 6:00 AM to 6:00 PM.",
+            transportation = "Road: Located near Hampi Bus Stand and Noblemen's Quarters. Rail: Hosapete Junction is about 13 km away. Air: Jindal Vijaynagar Airport is about 33 km away. Local autos, taxis, bicycles, and tourist vehicles are commonly used within Hampi."
         ),
         HeritageSite(
             id = "SITE-AIH-003",
@@ -60,7 +64,9 @@ object HeritageRepository {
             imageResId = R.drawable.heritage_aihole_lad_khan_temple,
             town = "Aihole",
             district = "Bagalkot",
-            pincode = "587124"
+            pincode = "587124",
+            siteTimings = "Open daily, 9:00 AM to 5:00 PM.",
+            transportation = "Road: Aihole is connected by road from Badami, Bagalkot, and Pattadakal. Rail: Badami and Bagalkot are the nearest practical railway stations, around 30-34 km away. Local buses, taxis, and hired autos are available from nearby towns."
         ),
         HeritageSite(
             id = "SITE-BADAMI-004",
@@ -80,7 +86,9 @@ object HeritageRepository {
             imageResId = R.drawable.heritage_badami,
             town = "Badami",
             district = "Bagalkot",
-            pincode = "587201"
+            pincode = "587201",
+            siteTimings = "Open daily, 9:00 AM to 5:30 PM.",
+            transportation = "Road: The caves are close to Badami town and bus stand. Rail: Badami Railway Station is about 5 km away. Air: Hubballi Airport is about 100 km away. Local autos and cycle-rickshaws are available from the station and town."
         ),
         HeritageSite(
             id = "SITE-PAT-005",
@@ -100,7 +108,9 @@ object HeritageRepository {
             imageResId = R.drawable.heritage_pattadakal,
             town = "Pattadakal",
             district = "Bagalkot",
-            pincode = "587201"
+            pincode = "587201",
+            siteTimings = "Open daily, 6:00 AM to 5:30 PM.",
+            transportation = "Road: Pattadakal is connected by road from Badami, Bagalkot, and Hubballi. Rail: Badami Railway Station is about 22 km away and Bagalkot Railway Station is about 40 km away. Air: Hubballi Airport is about 130 km away. Buses and taxis are available from Badami and Bagalkot."
         )
     )
 

@@ -16,6 +16,8 @@
     <string name="state">State</string>
     <string name="pin_code">PIN Code</string>
     <string name="maps_address">Maps Address</string>
+    <string name="site_timings">Site Timings</string>
+    <string name="transportation_facility">Transportation Facility</string>
     <string name="audio_guide">Audio Guide</string>
     <string name="play_audio">Play</string>
     <string name="pause_audio">Pause</string>
